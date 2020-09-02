@@ -9,3 +9,4 @@ while i < max :
     if values[i]<values[i+1]<values[i+2] :
         print('\tFound: ',values[i],values[i+1],values[i+2])
     i+=1
+
