@@ -12,7 +12,7 @@ print('Temperature =', Temperature)
 ToDoList = ''
 print('ToDoList =', ToDoList)
 
-IsHappy = IsWeekend and Temperature >= 20 and ToDoList == ''
+IsHappy = not IsWeekend and Temperature >= 20 and ToDoList == '' or IsWeekend and Temperature < 20
 print('IsHappy =', IsHappy)
 
 
